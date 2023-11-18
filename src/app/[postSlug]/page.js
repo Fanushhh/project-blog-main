@@ -6,7 +6,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import styles from "./postSlug.module.css";
 import CodeSnippet from "@/components/CodeSnippet";
 import { notFound } from 'next/navigation';
-
+import { BLOG_TITLE } from "@/constants";
 const DivisionGroupsDemo = dynamic(() => import("@/components/DivisionGroupsDemo"));
 const CircularColorsDemo = dynamic(() => import("@/components/CircularColorsDemo"));
 
