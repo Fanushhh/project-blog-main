@@ -28,6 +28,7 @@ function BlogSummaryCard({
       <p>
         {abstract}{' '}
         <Link
+          prefetch={true}
           href={href}
           className={styles.continueReadingLink}
         >
